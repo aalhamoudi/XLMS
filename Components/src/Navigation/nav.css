@@ -1,0 +1,40 @@
+.nav-parent {
+}
+
+.tab-pane {
+    -fx-padding: 10 0 0 -5;
+
+}
+
+.tab-header-area {
+}
+
+
+.headers-region {
+ }
+
+.tab-header-background {
+
+}
+
+.control-buttons-tab {
+
+}
+
+.tab {
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-background-color: transparent;
+
+}
+
+.tab:selected {
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-color,10%) ,derive(-fx-color,-6%));
+
+}
+
+
+
+
+
+

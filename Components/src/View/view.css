@@ -1,0 +1,20 @@
+.split-pane-divider {
+    -fx-border-color:  black;
+    -fx-padding: 0 0.001em 0 0.001em;
+    -fx-min-width: 0;
+    -fx-border-style: solid;
+    -fx-opacity: 0.25;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.horizontal-grabber {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-shape: " ";
+}
+
+
+.tab-pane {
+}

@@ -1,0 +1,25 @@
+<?import Modules.Pharmacokinetics.*?>
+<?import Navigation.NavPane?>
+<?import Navigation.NavTab?>
+<?import Navigation.ScenePane?>
+<?import Glyphs.*?>
+<?import Icons.*?>
+<?import javafx.scene.layout.BorderPane?>
+<ScenePane xmlns:fx="http://javafx.com/fxml">
+    <NavPane>
+        <NavTab>
+            <graphic><MaterialIcon glyph="LOCAL_PHARMACY" /></graphic>
+            <content>
+                <Pharmacokinetics/>
+            </content>
+        </NavTab>
+        <NavTab>
+            <graphic><MaterialIcon glyph="LOCAL_LIBRARY" /></graphic>
+            <content>
+                <BorderPane>
+
+                </BorderPane>
+            </content>
+        </NavTab>
+    </NavPane>
+</ScenePane>
